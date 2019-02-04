@@ -7,7 +7,7 @@ end
 
 def summon_captain_planet(array)
   # Your code here
-  array.split.each {|i| i.capitalize!}.join(' ')
+  array.map! {|i| i.capitalize}.join(' ')
 end
 
 def long_planeteer_calls(array)
