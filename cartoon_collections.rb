@@ -7,7 +7,7 @@ end
 
 def summon_captain_planet(array)
   # Your code here
-  array.map!_with_index {|i, y| i[y].capitalize + "!"}
+  array.map!_with_index {|i, u| i[u].capitalize + "!"}
 end
 
 def long_planeteer_calls(array)
@@ -20,5 +20,5 @@ end
 def find_the_cheese(array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array.find
+  array.find_with_index {|i, u| 
 end
